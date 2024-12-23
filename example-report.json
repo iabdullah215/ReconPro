@@ -1,0 +1,95 @@
+{
+    "domain": "overthewire.org",
+    "subdomain_bruteforce": "subdomains.txt",
+    "robots_txt": "robots.txt not found",
+    "sitemap": "sitemap.xml not found",
+    "ssl_certificate_info": {
+        "subject": [
+            [
+                [
+                    "commonName",
+                    "overthewire.org"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "Google Trust Services"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "WE1"
+                ]
+            ]
+        ],
+        "version": 3,
+        "serialNumber": "4ACF9E181C4B9E2D11B8B8CB44FDEBEF",
+        "notBefore": "Dec  6 17:14:27 2024 GMT",
+        "notAfter": "Mar  6 17:14:26 2025 GMT",
+        "subjectAltName": [
+            [
+                "DNS",
+                "overthewire.org"
+            ],
+            [
+                "DNS",
+                "*.overthewire.org"
+            ]
+        ],
+        "OCSP": [
+            "http://o.pki.goog/s/we1/Ss8"
+        ],
+        "caIssuers": [
+            "http://i.pki.goog/we1.crt"
+        ],
+        "crlDistributionPoints": [
+            "http://c.pki.goog/we1/TZg9FK9zoSc.crl"
+        ]
+    },
+    "open_ports": "Error during port scanning: 'overthewire.org'",
+    "http_headers": {
+        "Date": "Sat, 14 Dec 2024 10:52:37 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Last-Modified": "Thu, 14 Nov 2024 18:14:33 GMT",
+        "Access-Control-Allow-Origin": "*",
+        "expires": "Wed, 04 Dec 2024 21:53:35 GMT",
+        "Cache-Control": "max-age=600",
+        "x-proxy-cache": "MISS",
+        "X-GitHub-Request-Id": "665E:1FC2D8:7132E8:747943:6750CD07",
+        "Age": "108",
+        "Via": "1.1 varnish",
+        "X-Served-By": "cache-kul9827-KUL",
+        "X-Cache": "HIT",
+        "X-Cache-Hits": "0",
+        "X-Timer": "S1734173557.215653,VS0,VE1",
+        "Vary": "Accept-Encoding",
+        "X-Fastly-Request-ID": "28491c31ed1c4188412a4cf51140aea90e8d7ebc",
+        "CF-Cache-Status": "DYNAMIC",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=OcwEFgVs%2BmOqLZ%2Bw%2BLcCyMG%2FtSBdHzLF%2BdlIfN4RGtZLzK8%2FPf4gBrgKe5Ne50yc735wG7PcsYzjKDsM43USHwL7dOUGuSBNWbR8iAizhSgTpz8h4bC6xet9v5cN4OLxX0A7rFg7epLxGz0Jy%2Bk%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Strict-Transport-Security": "max-age=0",
+        "Server": "cloudflare",
+        "CF-RAY": "8f1da53c7b8ffd95-SIN",
+        "Content-Encoding": "gzip",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=186602&min_rtt=143922&rtt_var=78800&sent=5&recv=7&lost=0&retrans=0&sent_bytes=2849&recv_bytes=765&delivery_rate=28096&cwnd=154&unsent_bytes=0&cid=a85c73ec0612dffb&ts=184&x=0\""
+    },
+    "whois_info": "Error fetching WHOIS information: module 'whois' has no attribute 'whois'",
+    "http_methods": "No methods found",
+    "dns_lookup": "104.21.46.149",
+    "page_title": "No title found",
+    "server_fingerprinting": "cloudflare",
+    "ping_test": "overthewire.org is reachable"
+}
