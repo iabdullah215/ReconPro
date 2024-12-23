@@ -44,10 +44,10 @@ The Pentest Automation Tool is a Python-based utility designed to automate vario
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pentest-tool.git
-   cd pentest-tool
-   ```
+```bash
+git clone https://github.com/yourusername/pentest-tool.git
+cd pentest-tool
+```
 2. Install dependencies:
 
   ```bash
